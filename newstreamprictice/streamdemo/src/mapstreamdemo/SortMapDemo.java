@@ -30,7 +30,7 @@ public class SortMapDemo {
         employees.put(new Employee(555, "rakhi", "account", 500000), 5);
         System.out.println(employees);
 
-        // List<Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
+        List<Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
 
         // Collections.sort(list, (arg0, arg1) ->
         // arg0.getKey().compareTo(arg1.getKey()));
